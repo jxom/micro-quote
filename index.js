@@ -70,7 +70,7 @@ const handleNoSearchQuery = ({ res }) => {
       Default: en<br/>
       Example: <a href="https://quote.now.sh/bitcoin?lang=de">https://quote.now.sh/bitcoin?lang=de</a>
     </p>
-    <h4 style="margin-bottom: 0px;">search_type</h4>
+    <h4 style="margin-bottom: 0px;">result_type</h4>
     <p style="margin-top: 0px;">
       <i>Type of search results</i><br/><br/>
       Type: string<br/>

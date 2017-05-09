@@ -34,18 +34,15 @@ Type: `string`
 Default: `en`
 Example: [https://quote.now.sh/bitcoin?lang=de](https://quote.now.sh/bitcoin?lang=de)
 
-##### search_type
+##### result_type
 
 Type of search results
 
 Type: `string`
 Default: `popular`
 Available: `recent`, `popular`, `mixed`
-Example: [https://quote.now.sh/bitcoin?search_type=recent](https://quote.now.sh/bitcoin?search_type=recent)
+Example: [https://quote.now.sh/bitcoin?result_type=recent](https://quote.now.sh/bitcoin?result_type=recent)
 
-## Deploy
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/jxom/micro-quote)
+## License
 
-```
-now jxom/micro-quote
-```
+MIT © [Jake Moxey](https://jxom.io)
