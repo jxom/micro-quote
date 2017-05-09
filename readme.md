@@ -1,6 +1,6 @@
 # Micro Quote
 
-> Quotes of the internet.
+> 🗣 Quotes of the internet.
 
 A micro-service that returns a random tweet depending on the search term using [Twitter's Search API](https://dev.twitter.com/rest/reference/get/search/tweets).
 
@@ -23,7 +23,9 @@ Returns a contextual quote depending on the search query.
 Display detailed result
 
 Type: `boolean`
+
 Default: `true`
+
 Example: [https://quote.now.sh/bitcoin?detailed=true](https://quote.now.sh/bitcoin?detailed=true)
 
 ##### lang
@@ -31,7 +33,9 @@ Example: [https://quote.now.sh/bitcoin?detailed=true](https://quote.now.sh/bitco
 Language of the result
 
 Type: `string`
+
 Default: `en`
+
 Example: [https://quote.now.sh/bitcoin?lang=de](https://quote.now.sh/bitcoin?lang=de)
 
 ##### result_type
@@ -39,8 +43,11 @@ Example: [https://quote.now.sh/bitcoin?lang=de](https://quote.now.sh/bitcoin?lan
 Type of search results
 
 Type: `string`
+
 Default: `popular`
+
 Available: `recent`, `popular`, `mixed`
+
 Example: [https://quote.now.sh/bitcoin?result_type=recent](https://quote.now.sh/bitcoin?result_type=recent)
 
 ## License
