@@ -1,0 +1,20 @@
+{
+  "name": "micro-quote",
+  "version": "0.0.0",
+  "description": "Quotes of the internet",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec 'micro .'"
+  },
+  "author": "Jake Moxey",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^7.3.3",
+    "micro-api": "^0.2.0",
+    "micro-cors": "0.0.4",
+    "query-string": "^4.3.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
